@@ -45,10 +45,10 @@ print('wisselgeld: {} €'.format(tebetalen/100))
 print('========================')
 
 """
-iteren over de dictionary, dus 200, dan 100, dan 50, etc...
+itereren over de dictionary, dus 200, dan 100, dan 50, etc...
 """
 for muntWaarde, aantalMunten in munststukkenDictionary.items():
-    
+
     while tussentijdsSaldo - muntWaarde >= 0:
         """
         het aantal munten = aantal munten + 1,
