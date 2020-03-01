@@ -51,7 +51,11 @@ for muntWaarde, aantalMunten in munststukkenDictionary.items():
 
     while tussentijdsSaldo - muntWaarde >= 0:
         """
-        het aantal munten = aantal munten + 1,
+        'munststukkenDictionary[muntWaarde]' is wat verwarrend:
+        wat het doet is uit de dictionary op de 'pagina' 
+        van de muntwaarde de waarde van het aantal munten 
+        opzoeken, en daarna te verhogen met 1. 
+        Dus het aantal munten = aantal munten + 1,
         daarna het resterend bedrag berekenen
         """
         munststukkenDictionary[muntWaarde] = munststukkenDictionary[muntWaarde] + 1
